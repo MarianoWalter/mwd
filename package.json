@@ -1,7 +1,7 @@
 {
   "name": "mw-downloader",
-  "version": "0.1.0",
-  "description": "Resumable downloads from HTTP server",
+  "version": "0.1.1",
+  "description": "Command-line utility for resumable downloads",
   "main": "index.js",
   "bin": {
     "mwd": "./bin/mwd.js"
@@ -17,7 +17,16 @@
     "mwd"
   ],
   "author": "Mariano Walter <marianowalter.14@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarianoWalter/mwd.git"
+  },
   "license": "ISC",
+  "readme": "https://github.com/MarianoWalter/mwd/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/MarianoWalter/mwd/issues"
+  },
+  "homepage": "https://github.com/MarianoWalter/mwd#readme",
   "dependencies": {
     "commander": "^2.20.0",
     "progress": "^2.0.3",
