@@ -1,0 +1,26 @@
+{
+  "name": "mw-downloader",
+  "version": "0.1.0",
+  "description": "Resumable downloads from HTTP server",
+  "main": "index.js",
+  "bin": {
+    "mwd": "./bin/mwd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resumable",
+    "download",
+    "http",
+    "cli",
+    "mwd"
+  ],
+  "author": "Mariano Walter <marianowalter.14@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "progress": "^2.0.3",
+    "request": "^2.88.0"
+  }
+}
