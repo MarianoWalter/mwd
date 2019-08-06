@@ -1,12 +1,13 @@
 {
   "name": "mw-downloader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Command-line utility for resumable downloads",
   "main": "index.js",
   "bin": {
     "mwd": "./bin/mwd.js"
   },
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -31,5 +32,9 @@
     "commander": "^2.20.0",
     "progress": "^2.0.3",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-mwalter": "^1.0.3"
   }
 }
